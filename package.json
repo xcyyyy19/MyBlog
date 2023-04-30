@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "text": "这一块是内嵌的，被打包好的命令，相当于配置环境变量，在node_modules中的bin中找到相关文件去执行",
     "dev": "next dev -p 3002",
     "build": "next build",
     "postbuild": "next-sitemap",
